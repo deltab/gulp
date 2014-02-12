@@ -16,8 +16,8 @@ require('./gulpfile.coffee');
 `gulpfile.coffee`
 
 ```coffeescript
-gulp = require 'gulp'
+{task} = require 'gulp'
 
-gulp.task 'default', ->
-  console.log('default task called')
+task 'default', ->
+  console.log 'default task called'
 ```
